@@ -1,0 +1,30 @@
+_id: req_dc5c7f73ccaa4b5bbc2fece25b2e74b4
+type: Request
+parentId: fld_6d53ca0acd574e62b4a7bb4d8e100820
+modified: 1679147102007
+created: 1679147102007
+url: localhost:8000/api/register
+name: Wrong body
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"name": "admin",
+    	"email": "admin@gmail.com",
+    	"passworrd": "12341234"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1678827446273.6875
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

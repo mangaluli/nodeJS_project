@@ -1,0 +1,30 @@
+_id: req_efe6889eb8d34ce186cbc3ff253f5c94
+type: Request
+parentId: fld_6d53ca0acd574e62b4a7bb4d8e100820
+modified: 1679147102005
+created: 1679147102005
+url: localhost:8000/api/register
+name: Conflicting email
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"name": "admin",
+    	"email": "admin@gmail.com",
+    	"password": "12341234"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1678818779745.375
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

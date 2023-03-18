@@ -1,0 +1,25 @@
+_id: req_8e5972fe82cc411eb1d2708e96204215
+type: Request
+parentId: fld_ad5ed76e7a3b420b94c3a0fb00ba0c3e
+modified: 1679147102031
+created: 1679147102031
+url: localhost:8000/api/profile
+name: Invalid token
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - id: pair_ed9dbdc9ba1d40338e6068bbe6e38987
+    name: Authorization
+    value: eyJhbGciOiJIUzI1NiIsnR5cCI6IkpXVCJ9.eyJfaWQiOiI2NDBkZTdjYjE3NzgyMmQwYzQ2NTAxNGIiLCJpc19idXNpbmVzcyI6dHJ1ZSwiaWF0IjoxNjc4OTEzMzg1fQ.z7-3XE2RmLipwJx1VMCcakoeIIFk0V_-rCA-H11204w
+    description: ""
+authentication: {}
+metaSortKey: -1678801446598.125
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

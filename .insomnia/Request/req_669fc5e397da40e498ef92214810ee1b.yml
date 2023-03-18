@@ -1,0 +1,30 @@
+_id: req_669fc5e397da40e498ef92214810ee1b
+type: Request
+parentId: fld_6d53ca0acd574e62b4a7bb4d8e100820
+modified: 1679147102003
+created: 1679147102003
+url: localhost:8000/api/register
+name: Register
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"name": "",
+    	"email": "",
+    	"password": ""
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1678836112802
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

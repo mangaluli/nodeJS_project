@@ -1,0 +1,37 @@
+_id: req_a92dba1ede284043a0faa70091ba01a6
+type: Request
+parentId: fld_0563e32bc4214e8794af52fa1d9f1181
+modified: 1679147102044
+created: 1679147102044
+url: localhost:8000/api/cards/
+name: Invalid token
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: >-
+    {
+    	"name": "my card",
+    	"description": "aaa",
+    	"address": "a",
+    	"phone": "0505050505",
+    	"image_url": "https://chappellevet.ca/wp-content/uploads/2021/03/Abyssinian-1200x1228.jpg"
+    }
+parameters: []
+headers:
+  - id: pair_3611817aa3e64f7fbdd406c66a6ca0b7
+    name: Authorization
+    value: eyJhbGciOiJIUzI1NiIsnR5cCI6IkpXVCJ9.eyJfaWQiOiI2NDBkZTdjYjE3NzgyMmQwYzQ2NTAxNGIiLCJpc19idXNpbmVzcyI6dHJ1ZSwiaWF0IjoxNjc4OTEzMzg1fQ.z7-3XE2RmLipwJx1VMCcakoeIIFk0V_-rCA-H11204w
+    description: ""
+  - name: Content-Type
+    value: application/json
+    id: pair_2d17c4853aa248488f3584e2b9ede9b7
+authentication: {}
+metaSortKey: -1678801446470
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

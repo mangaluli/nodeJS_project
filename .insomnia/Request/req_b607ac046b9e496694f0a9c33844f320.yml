@@ -1,0 +1,29 @@
+_id: req_b607ac046b9e496694f0a9c33844f320
+type: Request
+parentId: fld_0eb3c263acdd4976813be6e165973d7e
+modified: 1679147102018
+created: 1679147102018
+url: localhost:8000/api/login
+name: Email not found
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    "email": "x@x.il",
+    "password": "12341234"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1678801446641.875
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

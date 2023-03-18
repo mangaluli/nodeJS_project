@@ -1,0 +1,30 @@
+_id: req_738afbddd5da4b418a8e23746d2a4c82
+type: Request
+parentId: fld_e747f293021a45d6b28ea10cb7999d5c
+modified: 1679147102087
+created: 1679147102087
+url: localhost:8000/api/cards/640df510c626c71224c52d52
+name: Invalid token
+description: ""
+method: DELETE
+body:
+  mimeType: application/json
+  text: ""
+parameters: []
+headers:
+  - id: pair_873fd25348a5496bab891a7965be6c38
+    name: Authorization
+    value: eyJhbGciOiJIUzI1NiIsnR5cCI6IkpXVCJ9.eyJfaWQiOiI2NDBkZTdjYjE3NzgyMmQwYzQ2NTAxNGIiLCJpc19idXNpbmVzcyI6dHJ1ZSwiaWF0IjoxNjc4OTEzMzg1fQ.z7-3XE2RmLipwJx1VMCcakoeIIFk0V_-rCA-H11204w
+    description: ""
+  - name: Content-Type
+    value: application/json
+    id: pair_ae3152f4c2724c74a451bf149f80de01
+authentication: {}
+metaSortKey: -1678801446449.9805
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

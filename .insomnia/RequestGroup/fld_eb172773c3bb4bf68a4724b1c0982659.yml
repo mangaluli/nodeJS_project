@@ -1,0 +1,10 @@
+_id: fld_eb172773c3bb4bf68a4724b1c0982659
+type: RequestGroup
+parentId: fld_303eaf0f39664ad2acec5826bc856a7c
+modified: 1679147102064
+created: 1679147102064
+name: PUT /:card_id
+description: ""
+environment: {}
+environmentPropertyOrder: null
+metaSortKey: -1678801446345

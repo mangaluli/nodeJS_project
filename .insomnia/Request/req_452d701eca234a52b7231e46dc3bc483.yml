@@ -1,0 +1,21 @@
+_id: req_452d701eca234a52b7231e46dc3bc483
+type: Request
+parentId: fld_ad5ed76e7a3b420b94c3a0fb00ba0c3e
+modified: 1679147102028
+created: 1679147102028
+url: localhost:8000/api/profile
+name: No token
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1678801446595
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

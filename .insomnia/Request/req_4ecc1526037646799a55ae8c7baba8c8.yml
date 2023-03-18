@@ -1,0 +1,26 @@
+_id: req_4ecc1526037646799a55ae8c7baba8c8
+type: Request
+parentId: fld_e747f293021a45d6b28ea10cb7999d5c
+modified: 1679147102089
+created: 1679147102089
+url: localhost:8000/api/cards/640df510c626c71224c52d52
+name: No token
+description: ""
+method: DELETE
+body:
+  mimeType: application/json
+  text: ""
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_ae3152f4c2724c74a451bf149f80de01
+authentication: {}
+metaSortKey: -1678801446449.834
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

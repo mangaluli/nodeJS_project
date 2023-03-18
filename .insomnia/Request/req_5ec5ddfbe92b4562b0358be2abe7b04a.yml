@@ -1,0 +1,21 @@
+_id: req_5ec5ddfbe92b4562b0358be2abe7b04a
+type: Request
+parentId: fld_c535b1ed78a649c9a507ca29a512505d
+modified: 1679147102061
+created: 1679147102061
+url: localhost:8000/api/cards/640df510c626c71224c52d52
+name: No token
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1678801446351.25
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

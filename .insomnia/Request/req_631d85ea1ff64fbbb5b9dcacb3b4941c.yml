@@ -1,0 +1,26 @@
+_id: req_631d85ea1ff64fbbb5b9dcacb3b4941c
+type: Request
+parentId: fld_78af5131903d4d3ba3fd6bf225581138
+modified: 1679147102108
+created: 1679147102108
+url: localhost:8000/api/myCards
+name: No token
+description: ""
+method: GET
+body:
+  mimeType: application/json
+  text: ""
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_ae3152f4c2724c74a451bf149f80de01
+authentication: {}
+metaSortKey: -1678801446451.0059
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

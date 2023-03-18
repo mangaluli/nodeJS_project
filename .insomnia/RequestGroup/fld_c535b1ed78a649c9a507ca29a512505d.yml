@@ -1,0 +1,10 @@
+_id: fld_c535b1ed78a649c9a507ca29a512505d
+type: RequestGroup
+parentId: fld_303eaf0f39664ad2acec5826bc856a7c
+modified: 1679147102050
+created: 1679147102050
+name: GET /:card_id
+description: ""
+environment: {}
+environmentPropertyOrder: null
+metaSortKey: -1678801446351.25

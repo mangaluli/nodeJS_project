@@ -1,0 +1,30 @@
+_id: req_b10524ef46a549bea1a65fa5c3676dca
+type: Request
+parentId: fld_78af5131903d4d3ba3fd6bf225581138
+modified: 1679147102104
+created: 1679147102104
+url: localhost:8000/api/myCards
+name: My Cards
+description: ""
+method: GET
+body:
+  mimeType: application/json
+  text: ""
+parameters: []
+headers:
+  - id: pair_873fd25348a5496bab891a7965be6c38
+    name: Authorization
+    value: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NDBkZTdjYjE3NzgyMmQwYzQ2NTAxNGIiLCJpc19idXNpbmVzcyI6dHJ1ZSwiaWF0IjoxNjc4OTEzMzg1fQ.z7-3XE2RmLipwJx1VMCcakoeIIFk0V_-rCA-H11204w
+    description: ""
+  - name: Content-Type
+    value: application/json
+    id: pair_ae3152f4c2724c74a451bf149f80de01
+authentication: {}
+metaSortKey: -1678801446451.4453
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

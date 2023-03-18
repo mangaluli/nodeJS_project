@@ -1,0 +1,25 @@
+_id: req_9126a03885f340168811aedaa208f496
+type: Request
+parentId: fld_c535b1ed78a649c9a507ca29a512505d
+modified: 1679147102056
+created: 1679147102056
+url: localhost:8000/api/cards/a
+name: Invalid ID
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - id: pair_873fd25348a5496bab891a7965be6c38
+    name: Authorization
+    value: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NDBkZTdjYjE3NzgyMmQwYzQ2NTAxNGIiLCJpc19idXNpbmVzcyI6dHJ1ZSwiaWF0IjoxNjc4OTEzMzg1fQ.z7-3XE2RmLipwJx1VMCcakoeIIFk0V_-rCA-H11204w
+    description: ""
+authentication: {}
+metaSortKey: -1678801446401.25
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

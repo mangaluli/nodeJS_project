@@ -1,0 +1,10 @@
+_id: fld_e747f293021a45d6b28ea10cb7999d5c
+type: RequestGroup
+parentId: fld_303eaf0f39664ad2acec5826bc856a7c
+modified: 1679147102079
+created: 1679147102079
+name: DELETE /:card_id
+description: ""
+environment: {}
+environmentPropertyOrder: null
+metaSortKey: -1678801446338.75

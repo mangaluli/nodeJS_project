@@ -1,0 +1,25 @@
+_id: req_bc5e1f8e12dd4ea6b16312fa4955a1a3
+type: Request
+parentId: fld_10e7aeff08b04118a34f240e2dd7be45
+modified: 1679147102094
+created: 1679147102094
+url: localhost:8000/api/cards
+name: Get
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - id: pair_873fd25348a5496bab891a7965be6c38
+    name: Authorization
+    value: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NDBkZTdjYjE3NzgyMmQwYzQ2NTAxNGIiLCJpc19idXNpbmVzcyI6dHJ1ZSwiaWF0IjoxNjc4OTEzMzg1fQ.z7-3XE2RmLipwJx1VMCcakoeIIFk0V_-rCA-H11204w
+    description: ""
+authentication: {}
+metaSortKey: -1678801446459.0625
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,29 @@
+_id: req_a36a378cfcd84a5c912b2e8c7a13aa64
+type: Request
+parentId: fld_0eb3c263acdd4976813be6e165973d7e
+modified: 1679147102021
+created: 1679147102021
+url: localhost:8000/api/login
+name: Wrong password
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    "email": "admin@gmail.com",
+    "password": "1"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1678801446640.3125
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
