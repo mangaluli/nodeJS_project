@@ -7,9 +7,9 @@ const joi = require('joi');
 
 
 
-const loginSchema = joi.object({
-  email: joi.string().email(),
-  password: joi.string(),
+const userSchema = joi.object({
+  email: joi.string().required().email(),
+  password: joi.string().required(),
 })
 
 
@@ -18,15 +18,17 @@ router.post('/', async (req, res) => {
   try {
     const validation_error = userSchema.validate(req.body).error;
     if (validation_error) {
-      return res.status(400).send('Validation Error!');
+      return res.status(400).send('Wrong body');
     }
 
     const user = await User.findOne({ email: req.body.email });
-    const email = user.email;
-    const password = await bcrypt.compare(req.body.password, user.password);
+    if (!user) {
+      return res.status(401).send('Wrong email or password');
+    }
 
-    if (!email || !password) {
-      return res.status(400).send('Wrong email or password');
+    const passwords_match = await bcrypt.compare(req.body.password, user.password);
+    if (!passwords_match) {
+      return res.status(401).send('Wrong email or password');
     }
 
     const { _id, is_business } = user;

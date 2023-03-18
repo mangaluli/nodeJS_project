@@ -13,10 +13,12 @@ app.use(logger);
 
 const register = require('./routes/register');
 const profile = require('./routes/profile');
+const myCards = require('./routes/myCards');
 const cards = require('./routes/cards');
 const login = require('./routes/login');
 app.use('/api/register', register);
 app.use('/api/profile', profile);
+app.use('/api/myCards', myCards);
 app.use('/api/cards', cards);
 app.use('/api/login', login);
 

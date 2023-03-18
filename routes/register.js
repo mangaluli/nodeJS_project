@@ -11,31 +11,37 @@ const userSchema = joi.object({
   email: joi.string().required().min(5).max(255).email(),
   password: joi.string().required().min(8).max(255),
   name: joi.string().required().min(2).max(255),
-  is_business: joi.boolean().required(),
 });
 
 
 // סעיף 1
 router.post('/', async (req, res) => {
   try {
-    //
     const validation_error = userSchema.validate(req.body).error;
     if (validation_error) {
-      return res.status(400).send('Validation Error!');
+      return res.status(400).send('Wrong body');
     }
 
-    let email_unavailable = await User.findOne({ email: req.body.email });
-    if (email_unavailable) {
+    const email_conflict = await User.findOne({ email: req.body.email });
+    if (email_conflict) {
       return res.status(409).send('Email already in use');
     }
 
     const salt = await bcrypt.genSalt(10);
     const password = await bcrypt.hash(req.body.password, salt);
 
-    new_user = new User({ ...req.body, password });
+    const new_user = new User({
+      name: req.body.name,
+      email: req.body.email,
+      password,
+      is_business: false
+    });
     await new_user.save();
 
-    res.status(201).send('Registration successfull');
+    const { _id, is_business } = new_user;
+    const token = jwt.sign({ _id, is_business }, process.env.JWTKEY);
+
+    res.status(200).send(token);
   } catch (error) {
     console.log(error);
     res.status(500).send({ message: 'Server error' });
